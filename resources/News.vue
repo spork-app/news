@@ -15,7 +15,7 @@
                     <option value="technology">Technology</option>
                 </select>
             </div>
-            <div role="list" class="w-full grid grid-cols-3 gap-4 ">
+            <div role="list" class="w-full grid lg:grid-cols-3 xl:grid-cols-4 gap-4">
                 <div v-for="(event, eventIdx) in $store.getters.articles" :key="eventIdx">
                     <div class="rounded overflow-hidden shadow bg-white dark:bg-gray-600">
                         <div class="bg-gray-900">

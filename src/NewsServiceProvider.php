@@ -12,6 +12,7 @@ class NewsServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(NewsServiceContract::class, NewsService::class);
-        Spork::addFeature('news', 'NewspaperIcon', '/news');
+        
+        Spork::addFeature('news', 'NewspaperIcon', '/news'); 
     }
 }

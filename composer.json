@@ -14,5 +14,13 @@
         "psr-4": {
             "Spork\\News\\": "src/"
         }
+    },
+    "keywords": ["spork-app", "spork-plugin"],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spork\\News\\NewsServiceProvider"
+            ]
+        }
     }
 }
